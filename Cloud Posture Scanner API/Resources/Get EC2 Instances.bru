@@ -1,0 +1,15 @@
+meta {
+  name: Get EC2 Instances
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/instances
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

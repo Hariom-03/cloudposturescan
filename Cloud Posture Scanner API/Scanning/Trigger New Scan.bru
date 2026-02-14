@@ -1,0 +1,19 @@
+meta {
+  name: Trigger New Scan
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseUrl}}/api/scan
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
+
+docs {
+  Triggers a new security scan across the AWS account.
+}

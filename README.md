@@ -91,10 +91,10 @@ A lightweight security assessment tool that discovers AWS resources and performs
           ▼                     ▼
     ┌─────────────────────────────────┐
     │         AWS Services            │
-    │  ┌────┐ ┌────┐ ┌────┐ ┌──────┐ │
-    │  │EC2 │ │ S3 │ │IAM │ │Cloud │ │
-    │  │    │ │    │ │    │ │Trail │ │
-    │  └────┘ └────┘ └────┘ └──────┘ │
+    │  ┌────┐ ┌────┐ ┌────┐ ┌──────┐  │ 
+    │  │EC2 │ │ S3 │ │IAM │ │Cloud │  | 
+    │  │    │ │    │ │    │ │Trail │  │
+    │  └────┘ └────┘ └────┘ └──────┘  │
     │                                 │
     │         ┌──────────┐            │
     │         │ DynamoDB │ (Storage)  │

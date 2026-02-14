@@ -1,0 +1,15 @@
+meta {
+  name: Get S3 Buckets
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/api/buckets
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
