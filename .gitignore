@@ -1,0 +1,45 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# AWS Credentials - NEVER COMMIT
+.aws/
+*.credentials
+*.pem
+*.key
+application-local.yml
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
